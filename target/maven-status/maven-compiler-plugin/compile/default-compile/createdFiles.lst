@@ -1,0 +1,4 @@
+com\example\config\HelloWorldInitializer.class
+com\example\entity\Message.class
+com\example\config\HelloWorldConfig.class
+com\example\controller\HelloWorldRestController.class
