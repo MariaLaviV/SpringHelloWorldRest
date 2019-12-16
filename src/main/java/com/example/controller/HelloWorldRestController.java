@@ -11,7 +11,7 @@ public class HelloWorldRestController {
 	
 	@RequestMapping(value="/")
 	public String Welcome(){
-		//System.out.println("Spring Rest Template");
+		System.out.println("Spring Rest Template");
 		return "Welcome to Spring RestTemplate Example.";
 	}
 	
@@ -20,5 +20,8 @@ public class HelloWorldRestController {
 		Message msg=new Message(player, "Hello" +player);
 		return msg;
 	}
-
+	
+	public String hello(){
+		return "Hello";
+	}
 }
